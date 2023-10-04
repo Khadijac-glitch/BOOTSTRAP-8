@@ -1,0 +1,531 @@
+#nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #212529;
+  }
+  #nav .navbar-toggler {
+    padding: 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  #nav .navbar-brand {
+    color: #ffc800;
+    font-weight: 700;
+   
+  }
+  #nav .navbar-brand img {
+    height: 25px;
+    margin-left: 100px;
+    margin-right: 350px;
+  }
+  #nav .navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+    color: #fff;
+  }
+  #nav .navbar-nav .nav-item .nav-link.active,
+ #nav .navbar-nav .nav-item .nav-link:hover {
+    color: #ffc800;
+  }
+  #nav .navbar-nav .nav-item .nav-link{
+      font-size: 20px;
+      letter-spacing: 1px;
+      margin-left: 15px;
+  }
+  #nav .navbar-nav {
+      margin-left: 200px;
+  }
+  #nav button{
+      color: gray;
+      border: 1px solid gray;
+  }
+  #nav button i{
+      color:gray;
+      margin-left: 10px;
+  }
+
+  /*-- Header --*/
+#header{
+	padding-top: 230px;
+  	text-align: center;
+	background-image: url(header-bg.jpg);
+	color: #fff;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+	height:90vh;
+}
+#header .btn{
+    background-color: #ffc800;
+    width: 225px;
+    height: 70px;
+    color: #FFF;
+    margin-top: 50px;
+}
+#header .btn p{
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 8px;
+    font-family: "Montserrat"
+
+}
+#header h1{
+    font-size: 80px;
+    padding-top: -30px;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+#header h3{
+    font-size: 40px;
+    padding-top: 60px;
+    font-family: "Roboto Slab";
+}  
+/*-----------------------services section-----------------*/
+#Services{
+	margin-bottom: 100px;
+}
+#Services h1{
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 40px;
+	margin-top: 30px;
+}
+#Services .service h1{
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 25px;
+}
+
+#Services p{
+	font-style: italic;
+    font-size:25px;
+  	font-family: "Roboto Slab";
+  	margin-top: 20px;
+}
+.ico{
+	width: 130px;
+	height: 130px;
+	border-radius: 100px;
+	background-color: #ffc800;
+}
+.ico i{
+	color: #FFF;
+	font-size: 60px;
+	text-align: center;
+	margin-top: -10px;
+}
+/*-----------------------Portfolio section-------------------------*/
+#Portfolio h1{
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 50px;
+}
+#Portfolio p{
+	font-style: italic;
+  	font-family: "Roboto Slab",
+}
+#Portfolio .card{
+	border-radius: 0;
+	border: none;
+	background: initial;
+}
+#Portfolio .card-body{
+	background-color: white;
+}
+#Portfolio .card-body h5{
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+#Portfolio .card-body p{
+	font-style: italic;
+  font-family: "Roboto Slab",
+}
+#Portfolio .card .portfolio-link .portfolio-hover {
+  display: flex;
+  position: absolute;
+  width: 95%;
+  height:78%;
+  background: rgba(255, 200, 0, 0.9);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+}
+#Portfolio .card .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 70px;
+  color: white;
+}
+  #Portfolio .card .portfolio-link:hover .portfolio-hover {
+    opacity: 1;
+  }
+  .modal-dialog .close img{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 10px 10px;
+  }
+  .modal-dialog .btn{
+    width: 150px;
+    height: 70px;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 200, 0, 0.9);
+    border: none;
+  }
+  .modal-body img{
+    height: 300px;
+    width: 500px;
+  }  
+  /*---------------Portfolio exit---------------*/
+  /*------------------About section----------------------*/
+  #About h1,h4{
+    font-family: "Montserrat";
+    font-weight: 700;
+  }
+  #About h3, p{
+    font-style: italic;
+    font-family: "Roboto Slab"
+  }
+  .timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+  }
+  .timeline:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    content: "";
+    background-color: #e9ecef;
+  }
+  .timeline li:after, .timeline li:before {
+    display: table;
+    content: " ";
+  }
+  .timeline li:after {
+    clear: both;
+  }
+  .timeline li .timeline-panel {
+    position: relative;
+    float: right;
+    width: 100%;
+    padding: 0 20px 0 100px;
+    text-align: left;
+  }
+  .timeline li .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+  }
+  .timeline li .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+  }
+  .timeline li .timeline-image {
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    bottom: px;
+    width: 90px;
+    height: 90px;
+    margin-left: 0;
+    text-align: center;
+    color: white;
+    border: 7px solid #e9ecef;
+    border-radius: 100%;
+    background-color: #ffc800;
+  }
+  .timeline li .timeline-image h4, .timeline li .timeline-image .h4 {
+    font-size: 20px;
+    line-height: 14px;
+    margin-top: 12px;
+  }
+  .timeline li.timeline-inverted .timeline-panel {
+    float: right;
+    padding: 0 20px 0 100px;
+    text-align: left;
+  }
+  .timeline li.timeline-inverted .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+  }
+  .timeline li.timeline-inverted .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+  }
+  .timeline li:last-child {
+    margin-bottom: 0;
+  }
+  .timeline .timeline-heading h4, .timeline .timeline-heading .h4 {
+    margin-top: 0;
+    color: inherit;
+  }
+  .timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
+    text-transform: none;
+  }
+  .timeline .timeline-body ul,
+  .timeline .timeline-body p {
+    margin-bottom: 0;
+  }
+  @media (min-width: 1200px) {
+    .timeline li {
+      min-height: 170px;
+      
+    }
+    .timeline li .timeline-panel {
+      padding: 0 20px 20px 100px;
+    }
+    .timeline li .timeline-image {
+      width: 170px;
+      height: 170px;
+      margin-left: -85px;
+    }
+    .timeline li .timeline-image h4, .timeline li .timeline-image .h4 {
+      margin-top: 40px;
+    }
+    .timeline li.timeline-inverted .timeline-panel {
+      padding: 0 100px 20px 20px;
+    }
+  }
+  @media (min-width: 768px) {
+    .timeline:before {
+      left: 50%;
+    }
+    .timeline li {
+      min-height: 200px;
+      margin-bottom: 100px;
+    }
+    .timeline li .timeline-panel {
+      float: left;
+      width: 41%;
+      padding: 0 20px 20px 30px;
+      text-align: right;
+    }
+    .timeline li .timeline-image {
+      left: 50%;
+      width: 100px;
+      height: 100px;
+      margin-left: -50px;
+    }
+    .timeline li .timeline-image h4, .timeline li .timeline-image .h4 {
+      font-size: 13px;
+      line-height: 18px;
+      margin-top: 16px;
+    }
+    .timeline li.timeline-inverted .timeline-panel:after {
+      float: right;
+      padding: 0 30px 20px 20px;
+      text-align: left;
+    }
+    .timeline li .timeline-inverteds .timeline-panel{
+      float: left;
+      padding: 0 10px 20px 20px;
+      text-align: left;
+    }
+  }
+  @media (min-width: 992px) {
+    .timeline li {
+      min-height: 150px;
+    }
+    .timeline li .timeline-panel {
+      padding: 0 20px 20px;
+    }
+    .timeline li .timeline-image {
+      width: 150px;
+      height: 150px;
+      margin-left: -75px;
+    }
+    .timeline li .timeline-image h4, .timeline li .timeline-image .h4 {
+      font-size: 18px;
+      line-height: 26px;
+      margin-top: 30px;
+    }
+    .timeline li.timeline-inverted .timeline-panel {
+      padding: 0 20px 20px;
+    }
+  }
+  @media (max-width:780px){
+	#nav .navbar-brand img {
+  height: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+	}
+        #header{
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        height: 100%;
+        }
+        #header h3{
+            margin-top: -170px;
+            width: 100%;
+            font-size:25px;
+        }
+        #header h1{
+            width: 100%;
+            font-size:50px;
+        }
+        #header .btn{
+           position: relative;
+           bottom: 40px;
+        }
+
+   }
+     /*--about section exit--*/
+/*---------------------------Team section-----------------------------*/
+#Team h1{
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+#Team h5{
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+#Team p{
+	font-style: italic;
+  font-family: "Roboto Slab",
+}
+#Team img{
+	width: 250px;
+	height: 250px;
+  border-radius:100%;
+	border:10px solid rgb(186, 183, 183);
+}
+#Team i{
+	font-size: 20px;
+	color: white;
+	margin-top: 10px;
+}
+#Team a{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background-color: #000;
+	margin: 10px;
+}
+
+
+/*-----------------COLAB------------------*/
+.colab img{
+  width: 180px;
+  height: 100px;
+  position: relative;
+  left: 100px;
+}
+/*---------------------Contact section-------------------------*/
+
+#Contact{
+  
+  height: 80vh;
+	background-image: url(map-image.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+	color: white;
+  background-color: #212529;
+}
+
+#Contact h1{
+	font-family: "Montserrat";
+	font-weight: 700;
+}
+#Contact p{
+	font-family: "Roboto Slab";
+	font-style: italic;
+}
+#Contact .frm{
+	display: inline-flex;
+}
+.form input{
+	height: 90px;
+	width: 100%;
+  font-weight: 700;
+  color: #8c8e90;
+}
+.form textarea{
+	height: 380px;
+  width: 100%;
+  font-weight: 700;
+  color: #8c8e90;
+}
+#Contact .btn{
+	width: 200px;
+	height: 70px;
+	color: #FFF;
+	font-family: "Monsterat";
+	font-weight: 700;
+}
+#Contact .btn p{
+	margin-top: 15px;
+}
+
+#Contact .form .form-control:focus {
+  border-color: #ffc800;
+  box-shadow: none;
+}
+
+@media (max-width:780px){
+	#Contact .form{
+	display: inline-grid;
+	}
+	.form input{
+	height: 40px;
+	width: 100%;
+	}
+.form textarea{
+	height: 100%;
+	}
+  #Team{
+    margin-top: 60px;
+  
+  }
+  footer {
+   margin-left:15px;
+  }
+  .foter a{
+    width: 40px;
+    height: 40px;   
+  }
+}
+/*--contact section exit--*/
+
+/*============= MAIN EXIT===================*/
+/*--------------------------- Footer------------------------------*/
+footer{
+	height: 50px;
+}
+footer i{
+	font-size: 23px;
+	color: white;
+	margin-top: 10px;
+}
+.foter a{
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	background-color: #000;
+	margin: 10px;
+}
+.foter a:hover{
+	background-color: gray;
+}
+footer p{
+	padding-top: 25px;
+}
+
+   
+      
+}     
