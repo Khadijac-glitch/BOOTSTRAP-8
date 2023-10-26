@@ -422,13 +422,14 @@
   width: 180px;
   height: 100px;
   position: relative;
-  left: 100px;
+  /* left: 100px; */
 }
+
 /*---------------------Contact section-------------------------*/
 
 #Contact{
   
-  height:80vh;
+  /* height:80vh; */
 	background-image: url(map-image.png);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -456,14 +457,16 @@
   color: #8c8e90;
 }
 .form textarea{
-	height: 380px;
+	height: 320px;
   width: 100%;
   font-weight: 700;
   color: #8c8e90;
 }
 #Contact .btn{
 	width: 200px;
-	height: 70px;
+	height: 60px;
+  position: relative;
+  bottom: 20px;
 	color: #FFF;
 	font-family: "Monsterat";
 	font-weight: 700;
@@ -483,6 +486,10 @@
   bottom: 30px;
 
 	}
+  .colab img{
+    position: relative;
+    left: 100px;
+  }
 	.form input{
 	height: 40px;
 	width: 100%;
